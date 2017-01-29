@@ -87,7 +87,7 @@ button, input[type="submit"]{
 /*header end*/
 /*main start*/
 .inner-block{
-	background: #44c0e8;
+	background: linear-gradient(to bottom right, #19b4c6, #078aa4);
 	height: 580px;
 }
 .inner-block h2{
