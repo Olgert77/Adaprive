@@ -64,7 +64,7 @@ button, input[type="submit"]{
 }
 .logo{
 	float: left;
-	margin: 40px 28px 40px 53px;
+	margin: 40px 28px 40px 35px;
 	font-weight: bold;
 }
 .logo a{
@@ -165,23 +165,35 @@ button, input[type="submit"]{
 		height: 174px;
 		line-height: 196px;
 	}
+	.inner-block{
+		height: 550px;
+	}
 }
 @media (max-width: 767px){
 	.container{
 		width: 620px;
 	}
+	.header{
+		height: 75px;
+	}
+	.logo{	
+		margin-top: 30px;
+	}
 	.link{
 		height:139px;
 		line-height: 168px; 
 	}
+	.inner-block{
+		height: 350px;
+	}
 	.inner-block h2{
 		font-size: 36px;
 		line-height: 48px;
-		margin-left: -40px;
+		padding: 112px 0 30px 50px;
 	}
 	.inner-block span{
 		font-size: 18px;
-		margin-left: -40px;
+		padding-left: 50px;
 	}
 	.inner-block img{
 		margin-left: 205px;
@@ -212,44 +224,60 @@ button, input[type="submit"]{
 		height: 115px;
 		line-height: 146px;
 	}
+	.inner-block{
+		height: 250px;
+	}
 	.inner-block h2{
 		font-size: 32px;
 		line-height: 40px;
-		margin-left: -40px;
+		padding: 58px 0 15px 35px;
 	}
 	.inner-block span{
 		font-size: 18px;
-		margin-left: -40px;
+		padding-left: 35px;
 	}
 	.inner-block img{
-		margin-left: 157px;
+		margin-left: 158px;
 	}
 	.about .col{
 		column-count: 1;
 	}
+	.slicknav_nav{
+    	margin: 0;
+  		padding: 0;
+  		font-size: 12px;
+  		width: 100%;
+    }
 }
 @media (max-width: 520px){
 	.container{
 		width: 310px;
 	}
-	.logo{
-		margin: 40px 22px 30px 2px;
+	.header{
+		height: 35px;
+	}
+	.logo{	
+		margin: 14px 0 0 20px;
+		font-size: 10px;
 	}
 	.link{
 		height: 70px;
     	line-height: 85px;
 	}
+	.inner-block{
+		height: 175px;
+	}
 	.inner-block h2{
-		font-size: 20px;
-		line-height: 28px;
-		margin-left: -50px;
+		font-size: 16px;
+		line-height: 22px;
+		padding: 58px 0 10px 25px;
 	}
 	.inner-block span{
-	font-size: 14px;
-	margin-left: -50px;
+		font-size: 12px;
+		padding-left: 25px;
 	}
 	.inner-block img{
-		margin-left: 65px;
+		margin-left: 46px;
 	}
 	.about .col{
 		column-count: 1;
@@ -258,4 +286,23 @@ button, input[type="submit"]{
 	.about h2{
   		margin: 54px 0 33px 36px; 
 	}
+	.slicknav_menu .slicknav_no-text{
+	    height: 35px;
+    	width: 40px;
+	}
+	.slicknav_menu .slicknav_no-text{
+    	margin: 0;
+    	padding:12px 12px 12px 12px;
+  }
+    .slicknav_menu .slicknav_icon-bar{
+    	width: 16px;
+    	height: 2px;
+    	margin-bottom: 2px;
+    }
+    .slicknav_nav{
+    	margin: 0;
+  		padding: 0;
+  		font-size: 7px;
+  		width: 100%;
+    }
 }
