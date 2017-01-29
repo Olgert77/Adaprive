@@ -56,7 +56,7 @@ button, input[type="submit"]{
 /*header start*/
 .header{
 	height: 100px;
-	background: #353535;
+	background: #373c3f;
 	font-size: 16px;
 	text-transform: uppercase;
 	color: #fff;
@@ -136,7 +136,7 @@ button, input[type="submit"]{
 }
 .about-block{
 	background: #ebebeb;
-	height: 580px;
+	height: 970px;
 }
 .about h2{
 	float: left;
@@ -171,14 +171,20 @@ button, input[type="submit"]{
 		width: 620px;
 	}
 	.link{
-		height:139px; 
+		height:139px;
+		line-height: 168px; 
 	}
 	.inner-block h2{
-	font-size: 36px;
-	line-height: 48px;
+		font-size: 36px;
+		line-height: 48px;
+		margin-left: -40px;
+	}
+	.inner-block span{
+		font-size: 18px;
+		margin-left: -40px;
 	}
 	.inner-block img{
-	margin-left: 118px;
+		margin-left: 205px;
 	}
 	.img-block.smw100{
 		width: 100%;
@@ -186,10 +192,16 @@ button, input[type="submit"]{
 	.slicknav_menu {
 		display:block;
 		float: right;
-		margin-top: 25px;
 	}
 	.header-nav{
 		display: none;
+	}
+	.about .col{
+		column-count: 1;
+		margin: 0 70px 45px 70px;
+	}
+	.about h2{
+  		margin: 54px 0 33px 70px; 
 	}
 }
 @media (max-width: 639px){
@@ -199,5 +211,51 @@ button, input[type="submit"]{
 	.link{
 		height: 115px;
 		line-height: 146px;
+	}
+	.inner-block h2{
+		font-size: 32px;
+		line-height: 40px;
+		margin-left: -40px;
+	}
+	.inner-block span{
+		font-size: 18px;
+		margin-left: -40px;
+	}
+	.inner-block img{
+		margin-left: 157px;
+	}
+	.about .col{
+		column-count: 1;
+	}
+}
+@media (max-width: 520px){
+	.container{
+		width: 310px;
+	}
+	.logo{
+		margin: 40px 22px 30px 2px;
+	}
+	.link{
+		height: 70px;
+    	line-height: 85px;
+	}
+	.inner-block h2{
+		font-size: 20px;
+		line-height: 28px;
+		margin-left: -50px;
+	}
+	.inner-block span{
+	font-size: 14px;
+	margin-left: -50px;
+	}
+	.inner-block img{
+		margin-left: 65px;
+	}
+	.about .col{
+		column-count: 1;
+		margin: 0 36px 45px 36px;
+	}
+	.about h2{
+  		margin: 54px 0 33px 36px; 
 	}
 }

@@ -12,7 +12,7 @@
   line-height: 1.125em;
   cursor: pointer; }
   .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
-    margin-top: 0.188em; }
+  margin-top: 0.188em; }
 
 .slicknav_menu {
   *zoom: 1; }
@@ -22,8 +22,8 @@
     float: left; }
   .slicknav_menu .slicknav_icon {
     float: left;
-    width: 1.125em;
-    height: 0.875em;
+    width: 5.125em;
+    height: 4.875em;
     margin: 0.188em 0 0 0.438em; }
     .slicknav_menu .slicknav_icon:before {
       background: transparent;
@@ -78,7 +78,7 @@
 .slicknav_menu {
   font-size: 16px;
   box-sizing: border-box;
-  background: #4c4c4c;
+  /*background: #4c4c4c;*/
   padding: 5px; }
   .slicknav_menu * {
     box-sizing: border-box; }
@@ -90,7 +90,7 @@
     background-color: #fff; }
 
 .slicknav_btn {
-  margin: 5px 5px 6px;
+  /*margin: 5px 5px 6px;*/
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   -webkit-border-radius: 4px;
