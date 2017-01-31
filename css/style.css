@@ -218,7 +218,7 @@ button, input[type="submit"]{
 }
 @media (max-width: 639px){
 	.container{
-		width: 511px;
+		width: 480px;
 	}
 	.link{
 		height: 115px;
@@ -233,7 +233,6 @@ button, input[type="submit"]{
 		padding: 58px 0 15px 35px;
 	}
 	.inner-block span{
-		font-size: 18px;
 		padding-left: 35px;
 	}
 	.inner-block img{
@@ -249,7 +248,7 @@ button, input[type="submit"]{
   		width: 100%;
     }
 }
-@media (max-width: 520px){
+@media (max-width: 479px){
 	.container{
 		width: 310px;
 	}
